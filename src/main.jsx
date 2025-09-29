@@ -3,28 +3,30 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 
 import App from './ui/App.jsx'
-import ErrorBoundary from './ui/ErrorBoundary.jsx'
-import { SoundProvider } from './core/sound.jsx'
-
 import './styles/index.css'
 
-const rootEl = document.getElementById('root')
-const boot = document.getElementById('boot-banner')
+// OPTIONAL: se hai questi provider, rimuovi i commenti e assicurati che i file esistano
+// import ErrorBoundary from './ui/ErrorBoundary.jsx'
+// import { SoundProvider } from './core/sound.jsx'
 
-function removeBoot(){ try { boot?.remove() } catch {} }
+const root = createRoot(document.getElementById('root'))
 
-const root = createRoot(rootEl)
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      {/*
       <ErrorBoundary>
         <SoundProvider>
           <App />
         </SoundProvider>
       </ErrorBoundary>
+      */}
+      {/* Versione base senza provider opzionali: */}
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 )
-const boot = document.getElementById('boot-banner')
-function removeBoot(){ try { boot?.remove() } catch {} }
-removeBoot()
+
+// Rimuovi il boot banner UNA sola volta
+const bootEl = document.getElementById('boot-banner')
+if (bootEl) bootEl.remove()
