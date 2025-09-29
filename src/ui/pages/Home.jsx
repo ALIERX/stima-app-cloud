@@ -7,6 +7,7 @@ import BlockchainLive from '../widgets/BlockchainLive.jsx'
 import { fmtEUR } from '../../core/utils.js'
 import { CATEGORIES } from '../../core/state.js'
 import { loadBuiltinAssets, loadUserAssets, loadCloudAssets } from '../../core/assetsStore.js'
+import HeroPremium from '../hero/HeroPremium.jsx'
 
 export default function Home(){
   const [assets, setAssets] = useState([])
@@ -43,6 +44,10 @@ export default function Home(){
   }
 
   return (
+    <main className="max-w-7xl mx-auto p-6 space-y-6">
+  <HeroPremium minted={Number(kpi.minted)} nav={Number(kpi.nav)} lastUpdate="00:00 UTC" oracleActive={true} />
+  {/* ...il resto della tua pagina (Ticker, News, ecc.) */}
+</main>
     <main className="max-w-7xl mx-auto p-6 space-y-6">
       <Card className="p-0 overflow-hidden">
         <div className="flex items-center justify-between px-4 py-3">
