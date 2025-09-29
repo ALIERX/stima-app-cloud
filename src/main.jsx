@@ -25,4 +25,6 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 )
+const boot = document.getElementById('boot-banner')
+function removeBoot(){ try { boot?.remove() } catch {} }
 removeBoot()
