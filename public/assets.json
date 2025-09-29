@@ -1,0 +1,182 @@
+[
+  {
+    "id": "w1",
+    "category": "watch",
+    "brand": "Patek Philippe",
+    "name": "Grandmaster Chime 6300A (Only Watch)",
+    "year": 2019,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Patek_Philippe_Grandmaster_Chime_6300A-010.jpg",
+    "declaredValueEUR": 31000000,
+    "description": "Unique stainless steel Grandmaster Chime auctioned for Only Watch."
+  },
+  {
+    "id": "w2",
+    "category": "watch",
+    "brand": "Rolex",
+    "name": "Daytona 'Paul Newman' 6239",
+    "year": 1968,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Rolex_Daytona_6239_Paul_Newman_dial.jpg",
+    "declaredValueEUR": 15000000,
+    "description": "Famous exotic-dial Daytona owned by Paul Newman."
+  },
+  {
+    "id": "w3",
+    "category": "watch",
+    "brand": "Audemars Piguet",
+    "name": "Royal Oak 'Jumbo' 5402",
+    "year": 1972,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Audemars_Piguet_Royal_Oak_5402ST.jpg",
+    "declaredValueEUR": 250000,
+    "description": "G\u00e9rald Genta\u2019s seminal luxury steel sports watch."
+  },
+  {
+    "id": "a1",
+    "category": "art",
+    "brand": "Pablo Picasso",
+    "name": "Les Femmes d'Alger (Version O)",
+    "year": 1955,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Picasso_-_Les_Femmes_d%27Alger_%28Version_O%29.jpg",
+    "declaredValueEUR": 160000000,
+    "description": "Record-breaking Picasso from the 'Women of Algiers' series."
+  },
+  {
+    "id": "a2",
+    "category": "art",
+    "brand": "Leonardo da Vinci",
+    "name": "Salvator Mundi",
+    "year": 1500,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Leonardo_da_Vinci%2C_Salvator_Mundi%2C_c._1500.jpg",
+    "declaredValueEUR": 390000000,
+    "description": "Old Master attributed to Leonardo; record private sale."
+  },
+  {
+    "id": "a3",
+    "category": "art",
+    "brand": "Jean-Michel Basquiat",
+    "name": "Untitled (1982)",
+    "year": 1982,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Basquiat_Untitled_1982.jpg",
+    "declaredValueEUR": 95000000,
+    "description": "Iconic skull painting by Basquiat."
+  },
+  {
+    "id": "v1",
+    "category": "wine",
+    "brand": "DRC Roman\u00e9e-Conti",
+    "name": "Roman\u00e9e-Conti 1945",
+    "year": 1945,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Domaine_de_la_Romanee-Conti_wine_bottle.jpg",
+    "declaredValueEUR": 450000,
+    "description": "Legendary final pre-replant vintage of Roman\u00e9e-Conti."
+  },
+  {
+    "id": "v2",
+    "category": "wine",
+    "brand": "Screaming Eagle",
+    "name": "Cabernet Sauvignon 1992",
+    "year": 1992,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Wine_bottles.jpg",
+    "declaredValueEUR": 400000,
+    "description": "Cult Napa bottle from the debut vintage."
+  },
+  {
+    "id": "v3",
+    "category": "wine",
+    "brand": "Ch\u00e2teau Lafite Rothschild",
+    "name": "Lafite 1869 (HK)",
+    "year": 1869,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Chateau_Lafite_Rothschild.jpg",
+    "declaredValueEUR": 200000,
+    "description": "Historic Lafite bottles sold at HK auction."
+  },
+  {
+    "id": "s1",
+    "category": "sneaker",
+    "brand": "Nike",
+    "name": "Air Jordan 1 'Chicago' (1985)",
+    "year": 1985,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Air_Jordan_1_%27Chicago%27.jpg",
+    "declaredValueEUR": 150000,
+    "description": "OG pair from the iconic first Jordan model."
+  },
+  {
+    "id": "s2",
+    "category": "sneaker",
+    "brand": "Nike",
+    "name": "Air Mag (2011)",
+    "year": 2011,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Nike_Air_Mag.jpg",
+    "declaredValueEUR": 75000,
+    "description": "Back to the Future-inspired limited release."
+  },
+  {
+    "id": "s3",
+    "category": "sneaker",
+    "brand": "Nike x Louis Vuitton",
+    "name": "Air Force 1 by Virgil Abloh",
+    "year": 2022,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Nike_Air_Force_1_LV8.jpg",
+    "declaredValueEUR": 200000,
+    "description": "Charity auction edition designed by Virgil Abloh."
+  },
+  {
+    "id": "c1",
+    "category": "car",
+    "brand": "Ferrari",
+    "name": "250 GTO",
+    "year": 1962,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/1962_Ferrari_250_GTO_34.jpg",
+    "declaredValueEUR": 52000000,
+    "description": "The blue-chip of collectible cars."
+  },
+  {
+    "id": "c2",
+    "category": "car",
+    "brand": "Mercedes-Benz",
+    "name": "300 SLR Uhlenhaut Coup\u00e9",
+    "year": 1955,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Mercedes-Benz_300_SLR_Uhlenhaut_Coupe.jpg",
+    "declaredValueEUR": 135000000,
+    "description": "Factory icon sold for a record charity price."
+  },
+  {
+    "id": "c3",
+    "category": "car",
+    "brand": "Bugatti",
+    "name": "Type 57SC Atlantic",
+    "year": 1936,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bugatti_Type_57SC_Atlantic.jpg",
+    "declaredValueEUR": 40000000,
+    "description": "Art deco masterpiece; extremely rare."
+  },
+  {
+    "id": "g1",
+    "category": "gem",
+    "brand": "Hope Diamond",
+    "name": "Hope Diamond",
+    "year": 1668,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Hope_Diamond.jpg",
+    "declaredValueEUR": 200000000,
+    "description": "Famous deep-blue diamond at the Smithsonian."
+  },
+  {
+    "id": "g2",
+    "category": "gem",
+    "brand": "Pink Star",
+    "name": "Pink Star (59.60 ct)",
+    "year": 2017,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Pink_Star_Diamond.jpg",
+    "declaredValueEUR": 65000000,
+    "description": "Record-priced vivid pink diamond."
+  },
+  {
+    "id": "g3",
+    "category": "gem",
+    "brand": "Cullinan I",
+    "name": "Great Star of Africa",
+    "year": 1908,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cullinan_I_diamond_34.jpg",
+    "declaredValueEUR": 500000000,
+    "description": "Largest clear-cut diamond in the British Crown Jewels."
+  }
+]
