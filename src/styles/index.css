@@ -2,11 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body, #root { height: 100%; background: #f8fafc; color: #0b0f19; }
-img { display: block; }
-.radar-card .recharts-polar-angle-axis-tick text { font-size: 10px; }
+/* ===== Base app ===== */
+html, body, #root {
+  height: 100%;
+  background: #0A0A0B; /* dark mode first */
+  color: #e5e7eb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-/* Boot banner */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== Boot banner (rimosso via JS in main.jsx) ===== */
 #boot-banner {
   position: fixed;
   inset: 0;
@@ -19,8 +30,23 @@ img { display: block; }
   z-index: 9999;
 }
 #boot-banner span {
-  padding: .6rem 1rem;
+  padding: 0.6rem 1rem;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   background: #fff;
 }
+
+/* ===== Recharts small text fix ===== */
+.radar-card .recharts-polar-angle-axis-tick text {
+  font-size: 10px;
+}
+
+/* ===== Utility helpers ===== */
+.card {
+  border-radius: 1rem;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(6px);
+}
+
+/* No custom syntax, no commas outside rules, no JS here. Solo CSS classico. */
